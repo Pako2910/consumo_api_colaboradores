@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+</head>
+<style>
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #ffffff;
+    }
+
+    td {
+        background-color: rgb(255, 255, 255);
+    }
+</style>
+<body style="background-color:rgb(0, 255, 251);">
+
+    <h1>Colaborador</h1>
+    <label for="search">Nombre de Colaborador o Teléfono:</label>
+    <input type="text" id="search" name="search">
+    <button onclick="searchPage()">Buscar</button>
+    <div style="height:20px"></div>
+    <table id="tblData">
+    </table>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="datos.js"></script>
+</body>
+</html>
